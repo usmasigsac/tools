@@ -1,0 +1,60 @@
+body { margin:0; font-family:"Comic Sans MS", cursive; color:#FFFFFF; background-color:#000000; }
+
+#menu { width:100%; height:200px; background:url(./images/logo.jpg) repeat-x left top; clear:both;
+        text-align:center; }
+#menu h1 { line-height:125%; font-size:24px; font-weight:normal; margin:20px 0 10px 0; color:#FFFFFF; }
+#menu h2 { line-height:125%; font-size:21px; font-weight:normal; margin:20px 0 10px 0; color:#FFFFFF; }
+#menu h3 { line-height:125%; font-size:15px; font-weight:normal; margin:20px 0 10px 0; color:#FFFFFF; }
+
+#navbox * { outline:none; line-height:125%; font-size:15px; font-variant:small-caps; margin:0 0 0 0; padding:0 0 0 0; text-align:center; }
+#navbox *.nav-act { color:#FF0000; }
+#navbox *.nav-inact { color:#C0C0C0; }
+#navbox *.nav-subt { font-size:15px; }
+#navbox td { border:2px solid #FFFF00; padding:5px 5px 5px 5px; }
+#navbox :hover td,
+#navbox a:hover { color:#FFFFFF; background-color:#0000FF; }
+
+#main { float:left; width:100%; color:#D6D6D6; font-size:13px; background:url(./images/back.jpg) repeat left top; }
+#main a { color:#808080; }
+#main a:hover { color:#FFFFFF; background-color:#0000FF; }
+#main br { line-height:10px; }
+
+#side { float:right; }
+
+#preside a { color:#0000FF; }
+#preside a i { color:#0000FF; }
+#preside a:hover { color:#FFFFFF; background-color:#0000FF; }
+#preside a:hover i { color:#FFFFFF; background-color:#0000FF; }
+
+#sidebar { width:180px; padding:20px 20px 20px 20px; margin:20px 0px 20px 0px; background-color:#323232 }
+#sidebar h3 { font-size:19px; font-weight:normal; margin:5px 0px 5px 0px; color:#FFFFFF; }
+#sidebar ul { margin:0px; padding:0; border-top:1px solid #272727; }
+#sidebar li { list-style:none; border-bottom:1px solid #272727; }
+#sidebar li a { color:#808080; text-decoration:none; padding:3px; display:block; }
+#sidebar li a:hover { background-color:#0000FF; }
+
+#text { line-height:17px; padding:20px 20px 20px 20px; margin:20px 180px 20px 0px; }
+#text * { font-family:"Times New Roman", normal; color:#000000; }
+#text a { color:#0000FF; }
+#text a i { color:#0000FF; }
+#text a:hover { color:#FFFFFF; background-color:#0000FF; }
+#text a:hover i { color:#FFFFFF; background-color:#0000FF; }
+#text h1 { line-height:125%; font-size:24px; font-weight:normal; margin:20px 0 10px 0; }
+#text h2 { line-height:125%; font-size:20px; font-weight:normal; margin:20px 0 10px 0; }
+#text h3 { line-height:125%; font-size:16px; font-weight:normal; margin:20px 0 10px 0; }
+#text ol ul { padding:0; margin:10px 0; }
+#text li { margin-left:40px; }
+
+#text .color-high { font-variant:small-caps; font-weight:900; }
+#text .color-high * { font-variant:small-caps; font-weight:900; }
+
+#text .color-alt { color:#FFFFFF; background-color:#008000; }
+#text .color-alt * { color:#FFFFFF; background-color:#008000; }
+
+#text .color-w { color:#FFFFFF; background-color:#808080; }
+#text .color-w * { color:#FFFFFF; background-color:#808080; }
+
+#footer { color:#FFFFFF; }
+#footer a { color:#808080; }
+#footer a:hover { color:#FFFFFF; background-color:#0000FF; }
+#footer h3 { font-size:13px; font-weight:normal; }

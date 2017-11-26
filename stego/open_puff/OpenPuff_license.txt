@@ -1,0 +1,38 @@
+
+**************************
+** ENGLISH - 07/07/2012 **
+
+Project/Software name: OpenPuff v4.00
+Author: "Eng. Cosimo Oliboni" <oliboni@embeddedsw.net>
+Company: EmbeddedSw.net, Italy
+
+THIS IS A FREEWARE SOFTWARE
+
+This software is released under CC-BY-ND:
+
+* CC-BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>
+
+You’re free to copy, distribute and make commercial use
+of this software under the following conditions:
+
+* You have to cite the author (and copyright owner): Eng. Cosimo Oliboni
+* You have to provide a link to the author’s Homepage: <http://embeddedsw.net/>
+
+***************************
+** ITALIANO - 07/07/2012 **
+
+Progetto/Nome del software: OpenPuff v4.00
+Autore: "Ing. Cosimo Oliboni" <oliboni@embeddedsw.net>
+Compagnia: EmbeddedSw.net, Italia
+
+QUESTO È UN SOFTWARE FREEWARE
+
+Questo software è rilasciato con licenza CC-BY-ND:
+
+* CC-BY-ND 3.0 <http://creativecommons.org/licenses/by-nd/3.0/>
+
+Siete liberi di copiare, distribuire e fare uso
+commerciale di questo software alle seguenti condizioni:
+
+* Dovete citare l’autore (e detentore del copyright): Ing. Cosimo Oliboni
+* Dovete fornire un link alla Homepage dell’autore: <http://embeddedsw.net/>

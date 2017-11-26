@@ -1,0 +1,522 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>OpenPuff Steganography &amp; Watermarking</title>
+<meta name="description" content="OpenPuff Steganography & Watermarking. Steganography software, professional and freeware, with a lot of cryptography, data obfuscation and unique security features.">
+<meta name="keywords" content="OpenPuff, steganography, watermarking, freeware, open source, deniable, images, video, audio, pdf, swf, flv, bmp, jpg, png, pcx, tga, mp3, mp4, wav, mpg, vob, 3gp">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="./newstyle.css" rel="stylesheet" type="text/css">
+<link href="./popup.css" rel="stylesheet" type="text/css">
+
+<!-- GOOGLE ANALYTICS -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26244108-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END -->
+
+</head>
+
+<body>
+
+<div id="menu">
+
+<div style='float:right;' align=right>
+<h1 style='margin-top:5px'>
+<a href="mailto:oliboni@embeddedsw.net" style='text-decoration:none;'>
+<span style='color:#FFFFFF;'>Contact</span>
+<img src="./images/email-support.png">
+</a>&nbsp;
+<br>
+<span style='font-size:15px;'>
+<a href="mailto:oliboni@embeddedsw.net" style='text-decoration:none;'>
+<span style='color:#FFFFFF;'>oliboni@embeddedsw.net</span>
+</a>&nbsp;&nbsp;&nbsp;
+</span>
+</h1>
+</div>
+
+<h1 style='font-family:"Times New Roman"; font-size:48px; font-variant:small-caps; margin-top:0px;'><b><i>EmbeddedSw.net</i></b></h1>
+
+<div id="navbox" align=center>
+
+<table border="1"><tr>
+
+<td><a class="nav-inact" href="http://embeddedsw.net/">
+<img src="./images/hammer_and_anvil_little.jpg" border="0"></a></td>
+
+<td><a class="nav-act" href="http://embeddedsw.net/OpenPuff_Steganography_Home.html">
+<b>OpenPuff</b><br><span class="nav-subt">StegoSW</span></a></td>
+
+<td><a class="nav-inact" href="http://embeddedsw.net/MultiObfuscator_Cryptography_Home.html">
+<b>Multi</b><br>
+<b>Obfuscator</b><br>
+<span class="nav-subt">CryptoSW</span></a></td>
+ 
+<td><a class="nav-inact" href="http://embeddedsw.net/libObfuscate_Cryptography_Home.html">
+<b>lib</b><br>
+<b>Obfuscate</b><br>
+<span class="nav-subt">CryptoSW</span></a></td>
+ 
+<td><a class="nav-inact" href="http://embeddedsw.net/Cipher_Reference_Home.html">
+<b>256bit</b><br>
+<b>Ciphers</b><br>
+<span class="nav-subt">CryptoSW</span></a></td>
+ 
+<td><a class="nav-inact" href="http://embeddedsw.net/EMUFDD_Floppy_Hardware_Emulator_Home.html">
+<b>EMUFDD</b><br>
+<span class="nav-subt">FloppyHW</span></a></td>
+
+<td><a class="nav-inact" href="http://embeddedsw.net/extra.html">
+<b>Extra</b></a></td>
+
+</tr></table>
+
+</div>
+</div>
+
+<div id="main">
+
+<div id="side">
+
+<div id="preside" align=center>
+<br>
+<a href="http://embeddedsw.net/news.html"><img src="./images/news.jpg" border="1"></a>
+</div>
+
+<div id="sidebar">
+
+<h3>Eng. Cosimo Oliboni</h3>
+<ul>
+<li>P.I. 02886211206 - Italy</li>
+</ul>
+
+<br><br>
+
+<!-- FACEBOOK -->
+<a href="http://www.facebook.com/pages/EmbeddedSW/228431677213272"><img src="./images/facebook.jpg"></a>
+<!-- END -->
+
+<!-- ALEXA -->
+<div align=center>
+<a href="http://www.alexa.com/siteinfo/embeddedsw.net?p=rwidget#reviews">
+<img src='http://www.alexa.com/images/widgets/blue/light/v1-125x60.png' alt='Review embeddedsw.net on alexa.com'></a>
+</div>
+<!-- END -->
+
+<!-- SHINYSTAT -->
+<div align=center>
+<script type="text/javascript" src="http://codice.shinystat.com/cgi-bin/getcod.cgi?USER=puffv2"></script>
+<noscript>
+<a href="http://www.shinystat.com/it" target="_top">
+<img src="http://www.shinystat.com/cgi-bin/shinystat.cgi?USER=puffv2" alt="Contatore sito" border="0"></a>
+</noscript>
+</div>
+<!-- END -->
+
+<h3>OpenPuff : Links</h3>
+<ul>
+<li>
+<table>
+<tr><td><a href="http://en.wikipedia.org/wiki/OpenPuff"><img src="./images/wikipedia.jpg" border="0"></a></td></tr>
+<tr><td><a href="http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=259270"><img src="./images/tntvillage.jpg" border="0"></a></td></tr>
+</table>
+</li>
+<li>Steganography</li>
+<li><a href="http://en.wikipedia.org/wiki/Steganography_tools">Wikipedia - StegoTools</a></li>
+<li><a href="http://www.jjtc.com/Steganography/tools.html">jjtc.com - StegoTools</a></li>
+<li><a href="http://stegano.net/tools">stegano.net - StegoTools</a></li>
+<li>Obfuscation</li>
+<li><a href="http://www.activism.net/cypherpunk/">Cypherpunk's manifesto</a></li>
+<li><a href="http://iq.org/~proff/rubberhose.org/">Rubberhose Crypto-FS</a></li>
+<li><a href="http://www.toad.com/gnu/">John Gilmore's homepage</a></li>
+<li><a href="http://online.offshore.com.ai/security/">Cryptorebel</a></li>
+<li><a href="https://www.defcon.org/">Defcon.org</a></li>
+<li><a href="http://thenexthope.org/">Hackers on planet earth</a></li>
+<li><a href="http://www.s0ftpj.org/it/spj.html">Softproject 2003</a></li>
+</ul>
+
+<h3>Portable Release</h3>
+<ul>
+<li>
+<table>
+<tr><td><a href="http://www.pendriveapps.com/steganography-and-watermarking-openpuff/"><img src="./images/pendriveapps.jpg" border="0"></a></td></tr>
+<tr><td><a href="http://portableapps.com/node/26847"><img src="./images/portableapps.jpg" border="0"></a></td></tr>
+<tr><td><a href="http://www.portablefreeware.com/index.php?id=1858"><img src="./images/portablefreeware.jpg" border="0"></a></td></tr>
+<tr><td><a href="http://www.winpenpack.com/main/download.php?view.913"><img src="./images/winpenpack.jpg" border="0"></a></td></tr>
+</table>
+</li>
+</ul>
+
+<br><br>
+
+<a href="http://www.orangewebsite.com/affiliate/idevaffiliate.php?id=10092&url=www.embeddedsw.net" target="_blank">
+<img border="0" src="http://www.orangewebsite.com/affiliate/banners/afcd16353f7f4ade8c4eb897e5f25ec2.gif" width="180"></a>
+
+</div>
+</div>
+
+<div id="text" align="center">
+
+<table border="0"><tr>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_ar.html">
+<img src="./images/flag_ar.png" border="1">
+<span dir="RTL"><b>OpenPuff</b> &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_bg.html">
+<img src="./images/flag_bg.png" border="1">
+<span><b>OpenPuff</b> &#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_cz.html">
+<img src="./images/flag_cz.png" border="1">
+<span><b>OpenPuff</b> &#268;esky</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_de.html">
+<img src="./images/flag_de.png" border="1">
+<span><b>OpenPuff</b> Deutsch</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home.html">
+<img src="./images/flag_en.png" border="1">
+<span><b>OpenPuff</b> English</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_es.html">
+<img src="./images/flag_es.png" border="1">
+<span><b>OpenPuff</b> Espa&ntilde;ol</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_fa.html">
+<img src="./images/flag_fa.png" border="1">
+<span dir="RTL"><b>OpenPuff</b> &#1601;&#1575;&#1585;&#1587;&#1740;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_fr.html">
+<img src="./images/flag_fr.png" border="1">
+<span><b>OpenPuff</b> Fran&ccedil;ais</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_gr.html">
+<img src="./images/flag_gr.png" border="1">
+<span><b>OpenPuff</b> &Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;&#940;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_hu.html">
+<img src="./images/flag_hu.png" border="1">
+<span><b>OpenPuff</b> Magyar</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_it.html">
+<img src="./images/flag_it.png" border="1">
+<span><b>OpenPuff</b> Italiano</span></a>
+</span></h3></td>
+
+</tr></table>
+<table border="0"><tr>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_ja.html">
+<img src="./images/flag_ja.png" border="1">
+<span><b>OpenPuff</b> &#26085;&#26412;&#35486;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_nl.html">
+<img src="./images/flag_nl.png" border="1">
+<span><b>OpenPuff</b> Nederlands</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_pl.html">
+<img src="./images/flag_pl.png" border="1">
+<span><b>OpenPuff</b> Polski</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_pt.html">
+<img src="./images/flag_pt.png" border="1">
+<span><b>OpenPuff</b> Portugu&ecirc;s</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_ro.html">
+<img src="./images/flag_ro.png" border="1" style='border: 5px solid darkgrey;'>
+<span><b>OpenPuff</b> Rom&acirc;n&#259;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_ru.html">
+<img src="./images/flag_ru.png" border="1">
+<span><b>OpenPuff</b> &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_sk.html">
+<img src="./images/flag_sk.png" border="1">
+<span><b>OpenPuff</b> Sloven&#269;ina</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_th.html">
+<img src="./images/flag_th.png" border="1">
+<span><b>OpenPuff</b> &#3652;&#3607;&#3618;</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_tr.html">
+<img src="./images/flag_tr.png" border="1">
+<span><b>OpenPuff</b> T&uuml;rk&ccedil;e</span></a>
+</span></h3></td>
+
+<td><h3 style='margin:0 0 0 0; padding:0 0 0 0;'><span class="popup">
+<a class="thumbmail" href="./OpenPuff_Steganography_Home_zh.html">
+<img src="./images/flag_zh.png" border="1">
+<span><b>OpenPuff</b> &#20013;&#25991;</span></a>
+</span></h3></td>
+
+</tr></table>
+
+<h1>OpenPuff 4.00 - Yet <b><i>not</i></b> another steganography SW</h1>
+
+<table border="1"><tr>
+
+<td><h2 align=center>&nbsp;
+<b><a href="http://embeddedsw.net/zip/OpenPuff.zip"><img src="./images/zip.jpg" border="0"> OpenPuff</a></b>
+ / <b><a href="http://embeddedsw.net/libObfuscate_Cryptography_Home.html"><img src="./images/lambda.jpg" border="0"> Source Page</a></b>
+&nbsp;</h2></td>
+
+</tr></table>
+
+<h3><i>Romanian introduction by users &amp; Internet reviews. Thanks!</i></h3>
+
+<table border="0"><tr>
+
+<td valign=top style='width:50%;'><div align=left>
+
+<h3>Clar vizibile mesaje criptate - indiferent de c&acirc;t de incasabil - va
+trezi suspiciuni, &#351;i poate &icirc;n sine s&#259; fie
+incriminatoare &icirc;n &#355;&#259;rile &icirc;n care criptarea este ilegala.
+Prin urmare, &icirc;n timp ce criptografia protejeaz&#259; con&#355;inutul
+unui mesaj, steganografia se poate spune c&#259; pentru a proteja
+at&acirc;t mesajul &#351;i comunicarea.</h3>
+
+<h3>Programul este notabil pentru c&#259;:
+<ul>
+<li style='margin-left:-20px;'>permite utilizatorilor s&#259; ascund&#259; date &icirc;ntr-un singur fi&#351;ier transportator</li>
+<li style='margin-left:-20px;'>pune &icirc;n aplicare 4 straturi de func&#355;ii ascunse de
+securitate a datelor (criptografie, scrambling, whitening &#351;i encoding)</li>
+</ul></h3>
+
+<h3>Avantajul steganografiei fata de criptografie, este c&#259; mesajel nu atrage aten&#355;ia asupra lui.</h3>
+
+</div></td>
+
+<td>&nbsp;</td>
+
+<td valign=top><div align=left>
+
+<h3>OpenPuff este utilizat &icirc;n principal pentru schimbul asincron de date anonime:
+<ul>
+<li style='margin-left:-20px;'>expeditorul ascunde un flux ascuns &icirc;n interiorul unor fi&#351;iere publice de transport disponibile</li>
+<li style='margin-left:-20px;'>receptorul descifreaza fluxul de ascuns numai prin cunoa&#351;terea cheii secrete</li>
+</ul></h3>
+
+<h3>Ultima actualizare accept&#259; o gam&#259; larg&#259; de formate de transportator:
+<ul>
+<li style='margin-left:-20px;'>Imagini (BMP, JPG, PCX, PNG, TGA)</li>
+<li style='margin-left:-20px;'>Audio (AIFF, MP3, NEXT/SUN, WAV)</li>
+<li style='margin-left:-20px;'>Clipuri video (3GP, MP4, MPG, VOB)</li>
+<li style='margin-left:-20px;'>Flash-Adobe (FLV, SWF, PDF)</li>
+</ul></h3>
+
+</div></td>
+
+<td>&nbsp;</td>
+
+</tr></table>
+
+<table border="1"><tr><td>
+
+<h3 align=center>&nbsp;
+<a href="./doc/OpenPuff_Help_EN.pdf"><img src="./images/flag_en.png" border="0"> Manual</a>
+ / <a href="./doc/OpenPuff_Help_IT.pdf"><img src="./images/flag_it.png" border="0"> Manuale</a>
+ / <a href="http://embeddedsw.net/doc/openpuff_review.pdf"><img src="./images/pdf.jpg" border="0"> Internet Review</a>
+&nbsp;</h3>
+
+<h3 align=center>&nbsp;
+<a href="http://embeddedsw.net/OpenPuff_v400_Steganography_Watermarking.torrent"><img src="./images/torrent.jpg" border="0"> Torrent</a>
+ / <a href="./openpuff_pad.xml"><img src="./images/xml.jpg" border="0"> Pad</a>
+ / <a href="./images/OpenPuff_Screenshot.jpg"><img src="./images/OpenPuff.jpg" border="0"> Screenshot</a>
+ / <a href="./images/OpenPuff.jpg"><img src="./images/OpenPuff.jpg" border="0"> Icon</a>
+&nbsp;</h3>
+
+<h3 align=center>&nbsp;
+<a href="./doc/legal_coercion.html"><img src="./images/lambda.jpg" border="0"> Legal coercion</a>
+ / <a href="./doc/physical_coercion.txt"><img src="./images/lambda.jpg" border="0"> Physical coercion</a>
+&nbsp;</h3>
+
+<h3 align=center>&nbsp;
+<a href="./doc/cypherpunk_manifesto.html"><img src="./images/lambda.jpg" border="0"> Cypherpunk</a>
+ / <a href="./doc/humans.html"><img src="./images/lambda.jpg" border="0"> Humans: The Weakest Link</a>
+&nbsp;</h3>
+
+<h3 align=center>
+<a href="http://xkcd.com/538/"><img src="./images/security.png" height="200"></a>
+</h3>
+
+</td></tr></table>
+
+<h3 align=left>OpenPuff is a professional <span class="color-high">steganography</span> tool, with unique features you won't find among any other
+free or commercial software. OpenPuff is 100% free and suitable for highly sensitive data covert
+transmission. Let's take a look at its features<br>
+<ul>
+<li style='margin-left:0px'><span class="color-high">Carrier chains</span> :
+Data is split among many carriers. Only the correct carrier sequence enables unhiding. Moreover,
+up to 256Mb can be hidden, if you have enough carriers at disposal. Last carrier will be filled with
+random bits in order to make it undistinguishable from others.</li>
+
+<li style='margin-left:0px'><span class="color-high">Supported formats</span> :
+Images, audios, videos, flash, adobe.</li>
+
+<li style='margin-left:0px'><span class="color-high">Layers of security</span> :
+Data, before carrier injection, is encrypted (1), scrambled (2), whitened (3) and encoded (4).<br>&nbsp;
+<ul>
+<li style='margin-left:0px'><span class="color-high">Layer 1 - Modern multi-cryptography</span> :
+A set of 16 modern 256bit open-source cryptography algorithms (chosen from
+<a href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process">AES Process [1997-2000]</a>,
+<a href="http://en.wikipedia.org/wiki/NESSIE">NESSIE Process [2000-2003]</a> and
+<a href="http://en.wikipedia.org/wiki/CRYPTREC">CRYPTREC Process [2000-2003]</a>)
+has been joined into a doublepassword multi-cryptography algorithm (256bit+256bit)
+: <a href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>
+/ <a href="http://en.wikipedia.org/wiki/Anubis_(cipher)">Anubis</a>
+/ <a href="http://en.wikipedia.org/wiki/Camellia_(cipher)">Camellia</a>
+/ <a href="http://en.wikipedia.org/wiki/CAST-256">Cast-256</a>
+/ <a href="http://en.wikipedia.org/wiki/CLEFIA">Clefia</a>
+/ <a href="http://en.wikipedia.org/wiki/FROG">FROG</a>
+/ <a href="http://en.wikipedia.org/wiki/Hierocrypt">Hierocrypt3</a>
+/ <a href="http://en.wikipedia.org/wiki/Idea_NXT">Idea-NXT</a>
+/ <a href="http://en.wikipedia.org/wiki/MARS_(cryptography)">MARS</a>
+/ <a href="http://en.wikipedia.org/wiki/RC6">RC6</a>
+/ <a href="http://en.wikipedia.org/wiki/SAFER">Safer+</a>
+/ <a href="http://en.wikipedia.org/wiki/SC2000">SC2000</a>
+/ <a href="http://en.wikipedia.org/wiki/Serpent_(cipher)">Serpent</a>
+/ <a href="http://labs.calyptix.com/speed.php">Speed</a>
+/ <a href="http://en.wikipedia.org/wiki/Twofish">Twofish</a>
+/ <a href="http://en.wikipedia.org/wiki/CIPHERUNICORN-A">Unicorn-A</a></li>
+
+<li style='margin-left:0px'><span class="color-high">Layer 2 - CSPRNG based scrambling</span> :
+Encrypted data is always scrambled to break any remaining stream pattern. A new
+cryptographically secure pseudo random number generator (CSPRNG) is seeded with a third
+password (256bit) and data is globally shuffled with random indexes.</li>
+
+<li style='margin-left:0px'><span class="color-high">Layer 3 - CSPRNG based whitening</span> :
+Scrambled data is always mixed with a high amount of noise, taken from an independent
+CSPRNG seeded with hardware entropy.</li>
+
+<li style='margin-left:0px'><span class="color-high">Layer 4 - Adaptive non-linear encoding</span> :
+Whitened data is always encoded using a non-linear function that takes also original carrier bits
+as input. Modified carriers will need much less change and deceive many steganalysis tests
+(e.g.: chi square test).</li>
+
+<li style='margin-left:0px'><span class="color-high">Extra security - Deniable steganography</span> :
+Top secret data can be protected using less secret data as a decoy.<br>&nbsp;</li></ul></li>
+
+<li style='margin-left:0px'><span class="color-high">Source code</span> :
+This program relies on the <a href="http://embeddedsw.net/libObfuscate_Cryptography_Home.html">libObfuscate</a> system-independent open-source library. Users and
+developers are absolutely free to link to the core library (100% of the cryptography & obfuscation
+code), read it and modify it.</li>
+
+</ul></h3>
+
+<table><tr><td>
+<img src="./images/OpenPuff_Screenshot.jpg" border="0">
+</td></tr></table>
+
+<table><tr>
+<td>
+<h3 align=center><iframe title="YouTube video player" width="250" height="156" src="http://www.youtube.com/embed/mO9iUgPt5Vw" frameborder="1" allowfullscreen></iframe><br>
+<b><a href="http://www.youtube.com/watch?feature=player_embedded&v=mO9iUgPt5Vw">OpenPuff 3.20 Official Demo-En</a></b></h3>
+</td>
+<td>
+<h3 align=center><iframe title="YouTube video player" width="250" height="156" src="http://www.youtube.com/embed/C_oxICrOEe4" frameborder="1" allowfullscreen></iframe><br>
+<b><a href="http://www.youtube.com/watch?feature=player_embedded&v=C_oxICrOEe4">OpenPuff 3.40 User Demo-En</a></b></h3>
+</td>
+</tr></table>
+
+<table><tr>
+<td>
+<h3 align=center><iframe title="YouTube video player" width="250" height="156" src="http://www.youtube.com/embed/ts5qQmyHmYw" frameborder="1" allowfullscreen></iframe><br>
+<b><a href="http://www.youtube.com/watch?feature=player_embedded&v=ts5qQmyHmYw">OpenPuff 3.40 User Demo-De</a></b></h3>
+</td>
+<td>
+<h3 align=center><iframe title="YouTube video player" width="250" height="156" src="http://www.youtube.com/embed/rsa6YwPQIjg" frameborder="1" allowfullscreen></iframe><br>
+<b><a href="http://www.youtube.com/watch?feature=player_embedded&v=rsa6YwPQIjg">OpenPuff 3.20 User Demo-Fr</a></b></h3>
+</td>
+</tr></table>
+
+<br>
+
+<!-- GLOB -->
+<h2><b>Worldwide visitors</b></h2>
+<script id="_wauviz">
+var _wau = _wau || [];
+_wau.push(["map", "n2nm0gnw7zbb", "viz", "420", "210", "cart" , "star-yellow"]);
+(function() { var s=document.createElement("script");s.src="http://widgets.amung.us/map.js";
+ s.async=true; document.getElementsByTagName("head")[0].appendChild(s); })();</script>
+<!-- GLOB -->
+
+</div>
+</div>
+
+<div id="footer">
+
+&nbsp;<br>
+
+<div style='float:left; padding-left:50px'>
+<table border="0"><tr><td>
+<h3>Pictures and media inside this domain<br>(if not otherwise specified)<br>are released under <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">Universal CC0 1.0</a><br>&nbsp;</h3>
+</td></tr></table>
+</div>
+
+<div style='float:right; padding-right:50px'>
+<table border="0"><tr><td>
+<h3>Design by <a href="http://www.designity.org/">Free Web Design Community</a></h3>
+</td></tr></table>
+</div>
+
+<div align=center>
+<table border="0"><tr>
+<td valign=top><h3>Worldwide <a href="http://www.whatsmydns.net/#A/embeddedsw.net">DNS</a> propagation</h3></td>
+<td>&nbsp;</td>
+<td><a href="http://www.whatsmydns.net/#A/embeddedsw.net"><img src="./images/worldwide.ico" border="0" width="32"></a></td>
+</tr></table>
+</div>
+
+</div>
+
+</body>
+</html>

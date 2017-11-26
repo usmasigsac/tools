@@ -1,0 +1,40 @@
+.popup {
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbmail img {
+/*border: 1px solid white;*/
+margin: 0 0 0 0;
+}
+
+.thumbmail:hover {
+background-color: transparent;
+}
+
+.thumbmail:hover img {
+/*border: 1px solid blue;*/
+}
+
+.thumbmail span { /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbmail span img { /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbmail:hover span { /*CSS for enlarged image*/
+visibility: visible;
+top: 50px;
+left: 0px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
